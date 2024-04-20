@@ -16,6 +16,16 @@ void myFunction3(int myNumbers[5]){
     }
 }
 
+//return an integer
+int myFunction4(int x){
+    return 5 + x ;
+}
+
+//return an integer
+int myFunction5(int x, int y){
+    return x + y;
+}
+
 int main(){
     
     myFunction1("Liam");
@@ -30,6 +40,10 @@ int main(){
     //call array function
     int myNumbers [5] = {10, 20, 30, 40, 50}; 
     myFunction3(myNumbers);
+
+    printf("Result is: %d\n", myFunction4(3));
+
+    printf("Result is: %d\n", myFunction5(5,6));
 
     return 0;
 
